@@ -1,12 +1,12 @@
-import React from 'react'
-import Nav from './components/Nav'
+import React from "react";
+import Nav from "./components/Nav";
 
 const page = () => {
   return (
     <main>
-      <Nav/>
+      <Nav />
     </main>
-  )
-}
+  );
+};
 
-export default page
+export default page;
