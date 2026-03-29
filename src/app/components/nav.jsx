@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import { FaWallet } from 'react-icons/fa6';
+import { Wallet } from 'lucide-react';
 
 const Nav = () => {
   const handleConnectWallet = () => {
@@ -42,7 +42,7 @@ const Nav = () => {
                      text-sm sm:text-base transition-all duration-300 
                      hover:shadow-xl active:scale-95 whitespace-nowrap"
         >
-          <FaWallet className="w-5 h-5 transition-transform group-hover:rotate-12" />
+          <Wallet className="w-5 h-5 transition-transform group-hover:rotate-12" />
           <span>Connect <span className='max-md:hidden'>Wallet</span></span>
         
         </button>
